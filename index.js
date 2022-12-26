@@ -17,7 +17,7 @@ client.on("ready", () => {
   console.log(`> ${new Date()}`);
   console.log(">| Name :");
   console.log(`> ${client.user.username}`);
-  client.user.setActivity('+help | Kurdish Pirate Tax', ({type: "LISTENING"}))
+  client.user.setActivity('+help', ({type: "LISTENING"}))
 });
  
  
